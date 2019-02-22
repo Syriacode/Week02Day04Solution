@@ -9,61 +9,13 @@
     tools:context=".Activity_Data_Entry">
 
     <TextView
-        android:id="@+id/etName"
+        android:id="@+id/tvName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="28sp"
         android:textColor="#F44336"
         android:textStyle="bold"
         android:hint="Name"/>
-    <TextView
-        android:id="@+id/etAddress"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="28sp"
-        android:textColor="#F44336"
-        android:textStyle="bold"
-        android:hint="Address"/>
-    <TextView
-        android:id="@+id/etCity"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="28sp"
-        android:textColor="#F44336"
-        android:textStyle="bold"
-        android:hint="City"/>
-    <TextView
-        android:id="@+id/etState"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="28sp"
-        android:textColor="#F44336"
-        android:textStyle="bold"
-        android:hint="State"/>
-    <TextView
-        android:id="@+id/etZipCode"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="28sp"
-        android:textColor="#F44336"
-        android:textStyle="bold"
-        android:hint="ZipCode"/>
-    <TextView
-        android:id="@+id/etPhoneNumber"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="28sp"
-        android:textColor="#F44336"
-        android:textStyle="bold"
-        android:hint="Phone Number"/>
-    <TextView
-        android:id="@+id/etEmailAddress"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="28sp"
-        android:textColor="#F44336"
-        android:textStyle="bold"
-        android:hint="Email Address"/>
 
     <Button
         android:id="@+id/btnSendResult"

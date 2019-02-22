@@ -58,6 +58,7 @@ class DataEntryActivity extends AppCompatActivity {
 
         return returnUser;
     }
+    public void onClick(){}
     public void onClick(View view) {
         User userResult = generateUserObjectFromInput();
         Bundle bundleOfTheCarResult = new Bundle();

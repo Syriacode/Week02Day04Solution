@@ -51,9 +51,10 @@ public class MainActivity extends AppCompatActivity {
         tvEmailAddressDisplay.setText(userInfoToPopulate.getEmailAddress());
     }
 
+    public void onClick(){}
     public void onClick(View view) {
         switch(view.getId()) {
-            case R.id.btnStartForResult:
+            case R.id.btnSendResult:
                 Intent explicitIntent = new Intent(this, DataEntryActivity.class);
                 startActivityForResult(explicitIntent, REQUEST_CODE_FOR_MAIN);
                 break;
@@ -104,7 +105,7 @@ public class MainActivity extends AppCompatActivity {
                 User resultUser = resultBundle.getParcelable(DataEntryActivity.KEY_USER_RESULT);
                 if(resultUser != null) {
                     saveAndLogCarInSharedPref(resultUser);//save and log make model in shared pref
-                    saveUserToDBandSeeLog(resultUser);//save car to db and print list of all cars in db
+                    saveUserToDBandSeeLog(resultUser);
                     populateTextViews(resultUser); //populate the views
                 }
 
