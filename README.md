@@ -11,4 +11,4 @@ Upon a button click, save the information to the database and save the name to s
 Log the list of current users in the DB in the logcat after you insert into the database
 Have a textview display the user name currently saved in shared pref
 
-![images/Week2Day4Screenshot.jpeg]
+![](Week2Day4Screenshot.jpeg)
